@@ -8,7 +8,7 @@
         </div>
         <form action="{% url 'profileapp:create' %}" method="post" enctype="multipart/form-data">
             {% csrf_token %}
-            {% bootstrap_form form %} <!--createview의 form-->
+            {% bootstrap_form form %}
             <input type="submit" class="btn btn-primary">
         </form>
     </div>
