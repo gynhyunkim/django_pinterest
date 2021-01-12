@@ -13,9 +13,9 @@
             </h5>
             <img style="width:100%; border-radius:1rem; margin: 1rem auto" src="{{ target_article.image.url }}" alt = "">
 
-            <p>
-                {{ target_article.content }}
-            </p>
+            <div class = "mb-5 mt-3" style = "text-align: left">
+                {{ target_article.content | safe }}
+            </div>
             {% if target_article.writer == request.user %}
             <a href="{% url 'articleapp:update' pk=target_article.pk %}" class="btn btn-dark rounded-pill col-3">
                 Update Article
