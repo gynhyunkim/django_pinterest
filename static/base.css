@@ -11,7 +11,7 @@
 }
 
 .pragmatic_header {
-    text-align: center; margin: 2rem 0;
+    text-align: center; margin: 2rem 0 0 0;
 }
 
 @media screen and (max-width:500px) {
@@ -34,5 +34,5 @@ a:hover {
 }
 
 .pragmatic_header_navbar {
-    margin: 1rem 0;
+    margin: 1rem 0 0 0;
 }
